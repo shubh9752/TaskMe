@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background: rgb(120, 153, 182) !important;
+}
+
+.btn__for_mobile{
+    position: fixed;
+    right:44%;
+    bottom: 0;
+    background: rgb(22, 21, 21);
+    margin-bottom: 1rem;
+    z-index:3;
+}
+
+@media(min-width:768px){
+    .btn__for_mobile{
+        display: none;
+    }
+}
